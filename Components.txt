@@ -1,0 +1,37 @@
+Atari Jr. Board PAL C021503 REV F
+
+Name            Description               Value
+A1              RIOT                      UM6532
+A2              CPU                       R6507-15
+A3              TIA                       UM6526
+A4              Hex Buffer                CD4050BCN
+A5              5x NPN Transistor         LM3086N
+C4              Capacitor                 1nF
+C20             Electrolytic cap          4.7uF 35V
+C26             Electrolytic cap          2200uF 16V
+C27             Electrolytic cap          4.7uF 35V
+C29             Electrolytic cap          4.7uF 35V
+C37             Electrolytic cap          4.7uF 35V
+CR3             Diode                     1N4148
+CR4             Diode                     1N4148
+DS1             Power LED                 red
+J1              Left Joystick Port        FOXCONN male SUBD9 port
+J2              9V DC-In Port             Mono Audio Like female port
+J3              Right Joystick Port       FOXCONN male SUBD9 port
+J4              RF Connector              Cinch Type female
+J5              Cartridge Connector       24pin 1.57mm card edge connector
+J6              Select/Reset connector    6pin
+Q1              Transistor PNP            2N 3906
+Q2              Transistor PNP            2N 3906
+Q3              Transistor PNP            2N 3906
+Q4              Transistor NPN            2N 3904
+Q5              Transistor NPN            2N 3904
+R9              Variable resistor         500K
+S1              Channel Switch            RS C019702-01
+S2              Left Difficulty Switch    RS C019702-01
+S3              Right Difficulty Switch   RS C019702-01
+S4              Power switch              RS C020480-02
+S5              Color switch              RS C020480-02
+VR1             5V volatage regulator     LM340T5 7805
+Y1              Quarz oscillator          3.546894MHz
+Y2              Quarz oscillator          4.433618MHz
