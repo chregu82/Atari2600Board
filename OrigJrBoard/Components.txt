@@ -1,0 +1,148 @@
+Atari Jr. Board PAL C021503 REV F
+
+Name            Description               Value
+A1              RIOT                      UM6532
+A2              CPU                       R6507-15
+A3              TIA                       UM6526
+A4              Hex Buffer                CD4050BCN
+A5              5x NPN Transistor         LM3086N
+C1              Capacitor                 1nF
+C2              Capacitor                 100nF
+C3              Capacitor                 1nF
+C4              Capacitor                 1nF
+C5              Capacitor                 68nF
+C6              Capacitor                 68nF
+C7              Capacitor                 1nF
+C8              Capacitor                 1nF
+C9              Capacitor                 1nF
+C10             Capacitor                 1nF
+C11             Capacitor                 470pF
+C12             Capacitor                 100nF
+C13             Capacitor                 68nF
+C14             Capacitor                 68nF
+C15             Capacitor                 1nF
+C16             Capacitor                 1nF
+C17             Capacitor                 1nF
+C18             Capacitor                 1nF
+C19             Capacitor                 470pF
+C20             Electrolytic cap          4.7uF 35V
+C21             Capacitor                 100nF
+C22             Capacitor                 100nF
+C23             Capacitor                 1nF
+C24             Capacitor                 1nF
+C25             Capacitor                 1nF
+C26             Electrolytic cap          2200uF 16V
+C27             Electrolytic cap          4.7uF 35V
+C28             Capacitor                 100nF
+C29             Electrolytic cap          4.7uF 35V
+C30             Capacitor                 39pF
+C32             Capacitor                 18pF
+C33             Capacitor                 100pF
+C34             Capacitor                 1nF
+C35             Capacitor                 68pF
+C36             Capacitor                 100nF
+C37             Electrolytic cap          4.7uF 35V
+C38             Capacitor                 100nF
+C39             Capacitor                 10nF
+C40             Capacitor                 10pF
+C41             Capacitor                 100nF
+C43             Capacitor                 100nF
+C46             Capacitor                 56pF
+C47             Capacitor                 100nF
+C48             Styroflex cap             820pF
+C49             Capacitor                 100nF
+C50             Capacitor                 47nF
+C51             Capacitor                 22pF
+C52             Capacitor                 47pF
+C53             Styroflex cap             820pF
+C54             Styroflex cap             820pF
+C55             Capacitor                 22pF
+CR2             Diode                     1N4148
+CR3             Diode                     1N4148
+CR4             Diode                     1N4148
+CR5             Diode                     1N4148
+DS1             Power LED                 red
+J1              Left Joystick Port        FOXCONN male SUBD9 port
+J2              9V DC-In Port             Mono Audio Like female port
+J3              Right Joystick Port       FOXCONN male SUBD9 port
+J4              RF Connector              Cinch Type female
+J5              Cartridge Connector       24pin 1.57mm card edge connector
+J6              Select/Reset connector    6pin
+L1              Inductance                1uH
+L2              Inductance                1uH
+L3              Inductance                15uH 10%
+L4              Inductance                1uH
+L5              Inductance                1uH
+L6              Variable Inductance       0.7uH
+L7              Inductance                1uH
+L8              Variable Inductance       2.6 uH
+L11             Inductance                1uH
+Q1              Transistor PNP            2N 3906
+Q2              Transistor PNP            2N 3906
+Q3              Transistor PNP            2N 3906
+Q4              Transistor NPN            2N 3904
+Q5              Transistor NPN            2N 3904
+R1              Resistor                  1K8 5% 0.25W
+R2              Resistor                  1K8 5% 0.25W
+R3              Resistor                  220R 5% 0.25W
+R4              Resistor                  10K 5% 0.25W
+R5              Resistor                  1K8 5% 0.25W
+R6              Resistor                  1K8 5% 0.25W
+R7              Resistor                  10K 5% 0.25W
+R8              Resistor                  220R 5% 0.25W
+R9              Variable resistor         500K         
+R10             Resistor                  220R 5% 0.25W
+R11             Resistor                  240R 5% 0.25W
+R12             Resistor                  100R 5% 0.25W
+R14             Resistor                  3K3 5% 0.25W
+R15             Resistor                  10K 5% 0.25W
+R16             Resistor                  2K7 5% 0.25W
+R17             Resistor                  330R 5% 0.25W
+R18             Resistor                  100R 5% 0.25W
+R19             Resistor                  100R 5% 0.25W
+R20             Resistor                  1K 5% 0.25W
+R21             Resistor                  1K5 5% 0.25W
+R22             Resistor                  4K7 5% 0.25W
+R23             Resistor                  91R 5% 0.25W
+R24             Resistor                  1K 5% 0.25W
+R25             Resistor                  2K2 5% 0.25W
+R26             Resistor                  220R 5% 0.25W
+R27             Resistor                  100R 5% 0.25W
+R28             Resistor                  1M 5% 0.25W
+R29             Resistor                  1K 5% 0.25W
+R30             Resistor                  3K3 5% 0.25W
+R31             Resistor                  10K 5% 0.25W
+R32             Resistor                  100R 5% 0.25W
+R33             Resistor                  3K3 5% 0.25W
+R34             Resistor                  1K 5% 0.25W
+R35             Resistor                  3K3 5% 0.25W
+R36             Resistor                  4K7 5% 0.25W
+R37             Resistor                  470R 5% 0.25W
+R38             Resistor                  12K 5% 0.25W
+R39             Resistor                  4K7 5% 0.25W
+R40             Resistor                  100K 5% 0.25W
+R41             Resistor                  3K3 5% 0.25W
+R42             Resistor                  6K8 5% 0.25W
+R43             Resistor                  9K1 5% 0.25W
+R44             Resistor                  6K8 5% 0.25W
+R45             Resistor                  10K 5% 0.25W
+R46             Resistor                  1K 5% 0.25W
+R47             Resistor                  100R 5% 0.25W
+R48             Resistor                  18K 5% 0.25W
+R49             Resistor                  20K 5% 0.25W
+R50             empty
+R51             Resistor                  10K 5% 0.25W
+R52             Resistor                  39K 5% 0.25W
+R53             Resistor                  10K 5% 0.25W
+R54             empty
+R56             Resistor                  1K8 5% 0.25W
+R57             Resistor                  750R 5% 0.25W
+S1              Channel Switch            RS C019702-01
+S2              Left Difficulty Switch    RS C019702-01
+S3              Right Difficulty Switch   RS C019702-01
+S4              Power switch              RS C020480-02
+S5              Color switch              RS C020480-02
+T1              Some strange 1 wire transformer
+VR1             5V volatage regulator     LM340T5 7805
+Y1              Quarz oscillator          3.546894MHz
+Y2              Quarz oscillator          4.433618MHz
