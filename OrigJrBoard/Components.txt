@@ -36,6 +36,7 @@ C27             Electrolytic cap          4.7uF 35V
 C28             Capacitor                 100nF
 C29             Electrolytic cap          4.7uF 35V
 C30             Capacitor                 39pF
+C31             empty
 C32             Capacitor                 18pF
 C33             Capacitor                 100pF
 C34             Capacitor                 1nF
@@ -76,6 +77,7 @@ L5              Inductance                1uH
 L6              Variable Inductance       0.7uH
 L7              Inductance                1uH
 L8              Variable Inductance       2.6 uH
+L9              Inductance                1.5uH
 L11             Inductance                1uH
 Q1              Transistor PNP            2N 3906
 Q2              Transistor PNP            2N 3906
@@ -135,6 +137,7 @@ R51             Resistor                  10K 5% 0.25W
 R52             Resistor                  39K 5% 0.25W
 R53             Resistor                  10K 5% 0.25W
 R54             empty
+R55             Resistor                  6K8 5% 0.25W
 R56             Resistor                  1K8 5% 0.25W
 R57             Resistor                  750R 5% 0.25W
 S1              Channel Switch            RS C019702-01
