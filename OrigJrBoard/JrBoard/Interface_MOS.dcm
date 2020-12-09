@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6532
+D RAM-I/O-Timer (RIOT)
+K 6532 RIOT
+F http://pdf.datasheetcatalog.com/datasheets/480/501467_DS.pdf
+$ENDCMP
+#
+#End Doc Library
