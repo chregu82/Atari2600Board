@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6507
+D NMOS microprocessor, DIP-28
+K NMOS Microprocessor
+F http://archive.6502.org/datasheets/mos_6500_mpu_nov_1985.pdf
+$ENDCMP
+#
+$CMP 6532
+D Rockwell RIOT - RAM, IO, Interval Timer, DIP-40
+K Rockwell RIOT
+F http://retro.hansotten.nl//uploads/6502/6532riot.pdf
+$ENDCMP
+#
+$CMP LM3086N
+D NPN Transistor Array
+F http://www.mit.edu/~6.301/LM3086.pdf
+$ENDCMP
+#
+$CMP UM6526P1
+D Atari  Television Interface Adaptor
+K Atari TIA
+F https://www.atarihq.com/danb/tia.shtml
+$ENDCMP
+#
+#End Doc Library
