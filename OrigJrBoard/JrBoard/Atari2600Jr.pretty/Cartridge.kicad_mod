@@ -1,4 +1,4 @@
-(module Cartridge (layer F.Cu) (tedit 5FD79100)
+(module Cartridge (layer F.Cu) (tedit 5FD7C969)
   (fp_text reference REF** (at -48.26 -12.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

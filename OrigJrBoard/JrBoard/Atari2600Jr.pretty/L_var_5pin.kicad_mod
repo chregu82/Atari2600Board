@@ -1,4 +1,4 @@
-(module L_var_5pin (layer F.Cu) (tedit 5FD79E5E)
+(module L_var_5pin (layer F.Cu) (tedit 5FD7C6BB)
   (fp_text reference REF** (at -7.62 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,4 +18,5 @@
   (pad 2 thru_hole circle (at 3.556 3.556) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 3.556) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -3.556 3.556) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
 )
