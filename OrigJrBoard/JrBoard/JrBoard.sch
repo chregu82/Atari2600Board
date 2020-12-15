@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:JrBoard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -607,12 +606,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0118
 U 1 1 5FD608DC
-P 2350 8450
-F 0 "#PWR0118" H 2350 8200 50  0001 C CNN
-F 1 "GND" H 2355 8277 50  0000 C CNN
-F 2 "" H 2350 8450 50  0001 C CNN
-F 3 "" H 2350 8450 50  0001 C CNN
-	1    2350 8450
+P 2350 8700
+F 0 "#PWR0118" H 2350 8450 50  0001 C CNN
+F 1 "GND" H 2355 8527 50  0000 C CNN
+F 2 "" H 2350 8700 50  0001 C CNN
+F 3 "" H 2350 8700 50  0001 C CNN
+	1    2350 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -710,7 +709,7 @@ F 3 "~" H 8400 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 5150 4750 6400
+	4750 5150 4750 5900
 $Comp
 L Diode:1N4148 CR3
 U 1 1 5FD2DC8E
@@ -768,17 +767,6 @@ F 2 "Atari2600Jr:R0.5Inch" V 5680 6300 50  0001 C CNN
 F 3 "~" H 5750 6300 50  0001 C CNN
 	1    5750 6300
 	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx_IEEE:4050 A4
-U 2 1 5FD3DF5F
-P 6250 6650
-F 0 "A4" V 6204 6954 50  0000 L CNN
-F 1 "4050" V 6295 6954 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 6250 6650 50  0001 C CNN
-F 3 "" H 6250 6650 50  0001 C CNN
-	2    6250 6650
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6250 6100 6250 5850
@@ -1131,17 +1119,6 @@ F 1 "1u" H 2402 8255 50  0000 L CNN
 F 2 "Atari2600Jr:L_small" H 2350 8300 50  0001 C CNN
 F 3 "~" H 2350 8300 50  0001 C CNN
 	1    2350 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx_IEEE:4050 A4
-U 3 1 5FDCDEEF
-P 12700 6850
-F 0 "A4" H 13150 7050 50  0000 R CNN
-F 1 "4050" H 13200 6700 50  0000 R CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 12700 6850 50  0001 C CNN
-F 3 "" H 12700 6850 50  0001 C CNN
-	3    12700 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1765,12 +1742,12 @@ Connection ~ 13950 1450
 $Comp
 L power:+5V #PWR0146
 U 1 1 603F9E0D
-P 4100 1000
-F 0 "#PWR0146" H 4100 850 50  0001 C CNN
-F 1 "+5V" V 4115 1128 50  0000 L CNN
-F 2 "" H 4100 1000 50  0001 C CNN
-F 3 "" H 4100 1000 50  0001 C CNN
-	1    4100 1000
+P 4300 1000
+F 0 "#PWR0146" H 4300 850 50  0001 C CNN
+F 1 "+5V" V 4315 1128 50  0000 L CNN
+F 2 "" H 4300 1000 50  0001 C CNN
+F 3 "" H 4300 1000 50  0001 C CNN
+	1    4300 1000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2304,18 +2281,6 @@ Wire Wire Line
 	11650 8500 12150 8500
 Text Label 11650 8500 0    50   ~ 0
 CSYNC
-$Comp
-L 4xxx_IEEE:4050 A4
-U 5 1 60AD07C6
-P 12700 8500
-F 0 "A4" H 13000 8700 50  0000 L CNN
-F 1 "4050" H 13000 8350 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 12700 8500 50  0001 C CNN
-F 3 "" H 12700 8500 50  0001 C CNN
-	5    12700 8500
-	1    0    0    -1  
-$EndComp
-Connection ~ 12150 8500
 Entry Wire Line
 	6700 7850 6800 7750
 Wire Wire Line
@@ -2334,24 +2299,12 @@ Wire Wire Line
 	6800 7850 7000 7850
 Text Label 6800 7850 0    50   ~ 0
 o2
-$Comp
-L 4xxx_IEEE:4050 A4
-U 4 1 60C293A5
-P 12700 7950
-F 0 "A4" H 13000 8150 50  0000 L CNN
-F 1 "4050" H 13000 7800 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 12700 7950 50  0001 C CNN
-F 3 "" H 12700 7950 50  0001 C CNN
-	4    12700 7950
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	11550 8050 11650 7950
 Wire Wire Line
 	12150 7950 11650 7950
 Text Label 11650 7950 0    50   ~ 0
 LUM1
-Connection ~ 12150 7950
 $Comp
 L power:+5VA #PWR0163
 U 1 1 60CD7E6B
@@ -3222,22 +3175,10 @@ F 3 "" H 12150 7100 50  0001 C CNN
 	1    12150 7100
 	1    0    0    -1  
 $EndComp
-Connection ~ 12150 7400
 Text Label 11650 7400 0    50   ~ 0
 LUM0
 Wire Wire Line
 	11650 7400 12150 7400
-$Comp
-L 4xxx_IEEE:4050 A4
-U 1 1 60D78ABC
-P 12700 7400
-F 0 "A4" H 13000 7600 50  0000 L CNN
-F 1 "4050" H 13000 7250 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 12700 7400 50  0001 C CNN
-F 3 "" H 12700 7400 50  0001 C CNN
-	1    12700 7400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R30
 U 1 1 5FD24C7C
@@ -3257,7 +3198,6 @@ Wire Wire Line
 Connection ~ 13650 7950
 Wire Wire Line
 	13650 9050 13550 9050
-Connection ~ 13250 9050
 Wire Wire Line
 	13250 9350 13250 9050
 $Comp
@@ -3271,7 +3211,6 @@ F 3 "~" H 13400 9050 50  0001 C CNN
 	1    13400 9050
 	0    1    1    0   
 $EndComp
-Connection ~ 12150 9050
 $Comp
 L power:+5VA #PWR0174
 U 1 1 60D54B91
@@ -3289,17 +3228,6 @@ Wire Wire Line
 	11650 9050 12150 9050
 Entry Wire Line
 	11550 9150 11650 9050
-$Comp
-L 4xxx_IEEE:4050 A4
-U 6 1 60D34A8D
-P 12700 9050
-F 0 "A4" H 13000 9250 50  0000 L CNN
-F 1 "4050" H 13000 8900 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 12700 9050 50  0001 C CNN
-F 3 "" H 12700 9050 50  0001 C CNN
-	6    12700 9050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R31
 U 1 1 5FD2F7D0
@@ -3478,7 +3406,7 @@ F 3 "" H 15750 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1550 5250 1550
+	4650 1550 4900 1550
 $Comp
 L power:+5VA #PWR0180
 U 1 1 60A14B46
@@ -3515,17 +3443,6 @@ $EndComp
 Connection ~ 5250 2400
 Wire Wire Line
 	5250 2750 5250 2400
-$Comp
-L 4xxx:4050 A4
-U 7 1 5FD41410
-P 5250 3250
-F 0 "A4" H 5480 3296 50  0000 L CNN
-F 1 "4050" H 5480 3205 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 5250 3250 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 5250 3250 50  0001 C CNN
-	7    5250 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5FD408AE
@@ -3691,10 +3608,6 @@ Wire Wire Line
 Connection ~ 700  3700
 Wire Wire Line
 	5750 6100 6250 6100
-Connection ~ 6250 6100
-Wire Wire Line
-	5850 7200 6250 7200
-Connection ~ 6250 7200
 $Comp
 L Connector:TestPoint TP2
 U 1 1 61E63A0B
@@ -3718,10 +3631,6 @@ Wire Wire Line
 	6800 7950 7000 7950
 Text Label 6800 7950 0    50   ~ 0
 A2_R
-Wire Wire Line
-	6250 7200 6300 7200
-Wire Wire Line
-	6250 7200 6600 7200
 Entry Wire Line
 	5550 6700 5650 6600
 Wire Wire Line
@@ -4571,7 +4480,6 @@ F 3 "~" H 11750 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12150 6850 11750 6850
-Connection ~ 12150 6850
 Wire Wire Line
 	11350 6250 11750 6250
 Wire Wire Line
@@ -4642,6 +4550,185 @@ Wire Wire Line
 	12650 3250 12650 3050
 Wire Wire Line
 	12650 3050 12850 3050
+$Comp
+L 4xxx:4050 A4
+U 7 1 5FE52FA9
+P 5250 3250
+F 0 "A4" H 5480 3296 50  0000 L CNN
+F 1 "4050" H 5480 3205 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5250 3250 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 5250 3250 50  0001 C CNN
+	7    5250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4050 A4
+U 2 1 5FE56B52
+P 6250 6600
+F 0 "A4" V 6204 6780 50  0000 L CNN
+F 1 "4050" V 6295 6780 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 6250 6600 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 6250 6600 50  0001 C CNN
+	2    6250 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 6100 6250 6300
+Wire Wire Line
+	5850 7200 6250 7200
+Connection ~ 6250 6100
+Wire Wire Line
+	6250 6900 6250 7200
+Connection ~ 6250 7200
+Wire Wire Line
+	6250 7200 6600 7200
+$Comp
+L 4xxx:4050 A4
+U 3 1 5FF1EBFF
+P 12750 6850
+F 0 "A4" H 12750 7167 50  0000 C CNN
+F 1 "4050" H 12750 7076 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 12750 6850 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 12750 6850 50  0001 C CNN
+	3    12750 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 6850 13050 6850
+Wire Wire Line
+	12450 6850 12150 6850
+Connection ~ 12150 6850
+$Comp
+L 4xxx:4050 A4
+U 1 1 5FFE5A8C
+P 12750 7400
+F 0 "A4" H 12750 7717 50  0000 C CNN
+F 1 "4050" H 12750 7626 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 12750 7400 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 12750 7400 50  0001 C CNN
+	1    12750 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 7400 13050 7400
+Wire Wire Line
+	12450 7400 12150 7400
+Connection ~ 12150 7400
+$Comp
+L 4xxx:4050 A4
+U 4 1 600B018A
+P 12750 7950
+F 0 "A4" H 12750 8267 50  0000 C CNN
+F 1 "4050" H 12750 8176 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 12750 7950 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 12750 7950 50  0001 C CNN
+	4    12750 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 7950 12150 7950
+Connection ~ 12150 7950
+Wire Wire Line
+	13050 7950 13250 7950
+$Comp
+L 4xxx:4050 A4
+U 5 1 6017A013
+P 12750 8500
+F 0 "A4" H 12750 8817 50  0000 C CNN
+F 1 "4050" H 12750 8726 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 12750 8500 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 12750 8500 50  0001 C CNN
+	5    12750 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 8500 13050 8500
+Wire Wire Line
+	12450 8500 12150 8500
+Connection ~ 12150 8500
+$Comp
+L 4xxx:4050 A4
+U 6 1 60246109
+P 12750 9050
+F 0 "A4" H 12750 9367 50  0000 C CNN
+F 1 "4050" H 12750 9276 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 12750 9050 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 12750 9050 50  0001 C CNN
+	6    12750 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 9050 13050 9050
+Connection ~ 13250 9050
+Wire Wire Line
+	12450 9050 12150 9050
+Connection ~ 12150 9050
+NoConn ~ 8900 4750
+NoConn ~ 8900 4950
+NoConn ~ 8900 5150
+NoConn ~ 5150 7500
+NoConn ~ 5150 7700
+NoConn ~ 5150 7800
+NoConn ~ 4350 8200
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 605E4E98
+P 4900 1550
+F 0 "#FLG0101" H 4900 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 4900 1723 50  0000 C CNN
+F 2 "" H 4900 1550 50  0001 C CNN
+F 3 "~" H 4900 1550 50  0001 C CNN
+	1    4900 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 1550
+Wire Wire Line
+	4900 1550 5250 1550
+Wire Wire Line
+	2350 8450 2350 8600
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6064D3EF
+P 2350 8600
+F 0 "#FLG0102" H 2350 8675 50  0001 C CNN
+F 1 "PWR_FLAG" V 2350 8728 50  0000 L CNN
+F 2 "" H 2350 8600 50  0001 C CNN
+F 3 "~" H 2350 8600 50  0001 C CNN
+	1    2350 8600
+	0    1    1    0   
+$EndComp
+Connection ~ 2350 8600
+Wire Wire Line
+	2350 8600 2350 8700
+Wire Wire Line
+	4300 1000 4200 1000
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 606B51D0
+P 4200 1000
+F 0 "#FLG0103" H 4200 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4200 1173 50  0000 C CNN
+F 2 "" H 4200 1000 50  0001 C CNN
+F 3 "~" H 4200 1000 50  0001 C CNN
+	1    4200 1000
+	-1   0    0    1   
+$EndComp
+Connection ~ 4200 1000
+Wire Wire Line
+	4200 1000 4100 1000
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 606B6C0C
+P 5750 2400
+F 0 "#FLG0104" H 5750 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 2573 50  0000 C CNN
+F 2 "" H 5750 2400 50  0001 C CNN
+F 3 "~" H 5750 2400 50  0001 C CNN
+	1    5750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2400 5750 2400
 Wire Bus Line
 	9900 9650 11550 9650
 Wire Bus Line
@@ -4660,4 +4747,31 @@ Wire Bus Line
 	3850 6600 3850 9650
 Wire Bus Line
 	11550 1750 11550 9650
+Connection ~ 5500 2400
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 607207C7
+P 4750 5900
+F 0 "#FLG0105" H 4750 5975 50  0001 C CNN
+F 1 "PWR_FLAG" V 4750 6028 50  0000 L CNN
+F 2 "" H 4750 5900 50  0001 C CNN
+F 3 "~" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	0    1    1    0   
+$EndComp
+Connection ~ 4750 5900
+Wire Wire Line
+	4750 5900 4750 6400
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 60721F48
+P 1000 1500
+F 0 "#FLG0106" H 1000 1575 50  0001 C CNN
+F 1 "PWR_FLAG" V 1000 1627 50  0000 L CNN
+F 2 "" H 1000 1500 50  0001 C CNN
+F 3 "~" H 1000 1500 50  0001 C CNN
+	1    1000 1500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1000 1500
 $EndSCHEMATC
