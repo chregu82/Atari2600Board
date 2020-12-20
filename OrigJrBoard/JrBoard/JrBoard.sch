@@ -4779,4 +4779,48 @@ Wire Bus Line
 	3850 6600 3850 9650
 Wire Bus Line
 	11550 1750 11550 9650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6041EEB6
+P 600 11100
+F 0 "H1" H 700 11146 50  0000 L CNN
+F 1 "MountingHole" H 700 11055 50  0000 L CNN
+F 2 "Atari2600Jr:HoleEdge" H 600 11100 50  0001 C CNN
+F 3 "~" H 600 11100 50  0001 C CNN
+	1    600  11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6041F647
+P 600 10900
+F 0 "H2" H 700 10946 50  0000 L CNN
+F 1 "MountingHole" H 700 10855 50  0000 L CNN
+F 2 "Atari2600Jr:HoleEdge" H 600 10900 50  0001 C CNN
+F 3 "~" H 600 10900 50  0001 C CNN
+	1    600  10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6041F737
+P 600 10700
+F 0 "H3" H 700 10746 50  0000 L CNN
+F 1 "MountingHole" H 700 10655 50  0000 L CNN
+F 2 "Atari2600Jr:HoleTop" H 600 10700 50  0001 C CNN
+F 3 "~" H 600 10700 50  0001 C CNN
+	1    600  10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6041F9BA
+P 600 10500
+F 0 "H4" H 700 10546 50  0000 L CNN
+F 1 "MountingHole" H 700 10455 50  0000 L CNN
+F 2 "Atari2600Jr:HoleEdge" H 600 10500 50  0001 C CNN
+F 3 "~" H 600 10500 50  0001 C CNN
+	1    600  10500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
