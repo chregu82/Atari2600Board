@@ -4583,18 +4583,11 @@ Connection ~ 8300 3250
 Wire Wire Line
 	8750 3250 8850 3250
 Wire Wire Line
-	8850 3250 8850 3000
-Wire Wire Line
-	8850 3000 8400 3000
-Wire Wire Line
-	8850 3000 8850 2000
-Wire Wire Line
-	8850 2000 7200 2000
+	8850 2000 8450 2000
 Wire Wire Line
 	7200 2000 7200 2300
 Wire Wire Line
 	7200 2300 7350 2300
-Connection ~ 8850 3000
 $Comp
 L Device:R R78
 U 1 1 619D3CF3
@@ -4636,6 +4629,8 @@ Wire Wire Line
 	7100 2600 7100 2900
 Wire Wire Line
 	7100 2900 7350 2900
+Wire Wire Line
+	8450 3000 8450 2000
 Wire Bus Line
 	9900 9650 11550 9650
 Wire Bus Line
@@ -4654,4 +4649,11 @@ Wire Bus Line
 	3850 6600 3850 9650
 Wire Bus Line
 	11550 1750 11550 9650
+Wire Wire Line
+	8450 3000 8400 3000
+Connection ~ 8450 2000
+Wire Wire Line
+	8450 2000 7200 2000
+Wire Wire Line
+	8850 2000 8850 3250
 $EndSCHEMATC
