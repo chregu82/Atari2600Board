@@ -4535,7 +4535,7 @@ U 1 1 61674B0E
 P 8250 3000
 F 0 "D70" H 8250 2784 50  0000 C CNN
 F 1 "1N4148" H 8250 2875 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8250 2825 50  0001 C CNN
+F 2 "Atari2600Jr:Diode" H 8250 2825 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8250 3000 50  0001 C CNN
 	1    8250 3000
 	-1   0    0    1   
@@ -4572,7 +4572,7 @@ U 1 1 618AF7D5
 P 8600 3250
 F 0 "D71" H 8600 3034 50  0000 C CNN
 F 1 "1N4148" H 8600 3125 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8600 3075 50  0001 C CNN
+F 2 "Atari2600Jr:Diode" H 8600 3075 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 3250 50  0001 C CNN
 	1    8600 3250
 	-1   0    0    1   
