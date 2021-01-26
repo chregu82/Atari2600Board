@@ -52,7 +52,7 @@ C46             Capacitor                 56pF
 C47             Capacitor                 100nF
 C48             Styroflex cap             820pF
 C49             Capacitor                 100nF
-C50             Capacitor                 47nF
+C50             Capacitor                 47pF
 C51             Capacitor                 22pF
 C52             Capacitor                 47pF
 C53             Styroflex cap             820pF
